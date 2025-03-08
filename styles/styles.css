@@ -27,10 +27,9 @@ header {
 }
 
 header img {
-    width: 40%; /* Makes the image 40% of its container */
-    max-width: 150px; /* Ensures it doesn’t get too large on big screens */
-    height: auto; /* Keeps the aspect ratio */
-    border-radius: 50%; /* Optional: Makes it circular */
+    width: 40%;
+    max-width: 150px;
+    border-radius: 8px;
 }
 
 h1 {
