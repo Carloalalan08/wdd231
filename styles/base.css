@@ -1,0 +1,118 @@
+/* Base CSS Styles */
+
+:root {
+    --dark-green: #8EAFBD;
+    --dark-blue: #242A3A;
+    --brown: #2E241D;
+    --dark-red: #251115;
+    --light-gray: #BFC1C0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #8EAFBD;
+    color: #242A3A;
+}
+
+header {
+    background-color: #242A3A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 2rem;
+    color: #202C2B;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+
+nav ul {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #BFC1C0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #251115;
+}
+
+main img {
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.long-section .content-layout {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.long-section img {
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 1;
+    text-align: justify;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #251115;
+}
+
+.card img {
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #242A3A;
+    color: white;
+    margin-top: 20px;
+}
