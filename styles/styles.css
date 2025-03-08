@@ -163,7 +163,6 @@ section {
 
 .long-section .content-layout {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     align-items: flex-start;
 }
