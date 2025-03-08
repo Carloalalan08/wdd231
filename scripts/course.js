@@ -77,3 +77,42 @@ const courses = [
         completed: false
     }
 ]
+
+function displayCourses(filter = "all") {
+    const courseList = document.getElementById("course-list");
+    const totalCreditsEl = document.getElementById("total-credits");
+    courseList.innerHTML = "";
+
+    let filteredCourses = courses.filter(course =>
+        filter === "all" ? true : course.subject === filter
+    );
+
+    let totalCredits = 0;
+
+    filteredCourses.forEach(course => {
+        totalCredits += course.credits;
+
+        let courseCard = document.createElement("div");
+        courseCard.classList.add("course-card");
+        if (course.completed) courseCard.classList.add("completed");
+
+        courseCard.innerHTML = `
+            <h3>${course.subject} ${course.number}: ${course.title}</h3>
+            <p><strong>Credits:</strong> ${course.credits}</p>
+            <p><strong>Description:</strong> ${course.description}</p>
+            <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
+        `;
+
+        courseList.appendChild(courseCard);
+    });
+
+    totalCreditsEl.textContent = totalCredits;
+}
+
+// Filter event listeners
+document.getElementById("all-courses").addEventListener("click", () => displayCourses("all"));
+document.getElementById("wdd-courses").addEventListener("click", () => displayCourses("WDD"));
+document.getElementById("cse-courses").addEventListener("click", () => displayCourses("CSE"));
+
+// Load all courses on page load
+displayCourses();

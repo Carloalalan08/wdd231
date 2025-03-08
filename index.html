@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap" rel="stylesheet">
 </head>
 </head>
+
 <body>
     <header>
         <img src="images/profile.jpg" alt="Mon Carlo Alalan">
@@ -27,21 +29,19 @@
         </ul>
     </nav>
     <main>
-        <h1>Home</h1>
-        <section>
-            <h2>About the Course</h2>
-            <p>Information about WDD 231 and what you will learn.</p>
-        </section>
         <section id="courses">
             <h2>Courses</h2>
-            <button id="all-courses">All</button>
-            <button id="wdd-courses">WDD</button>
-            <button id="cse-courses">CSE</button>
+            <div class="course-filters">
+                <button id="all-courses">All</button>
+                <button id="wdd-courses">WDD</button>
+                <button id="cse-courses">CSE</button>
+            </div>
             <div id="course-list"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
         </section>
         <section>
-            <h2>Contact Information</h2>
-            <p>Email: your@email.com</p>
+            <h2>Contact Information:</h2>
+            <p>Email: malalan@byupathway.edu</p>
         </section>
     </main>
     <footer>
@@ -52,4 +52,5 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/course.js" defer></script>
 </body>
+
 </html>
