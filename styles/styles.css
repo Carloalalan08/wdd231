@@ -26,7 +26,7 @@ header img {
 
 header span {
     font-family: "Abril Fatface", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white; 
     margin-left: 10px;
 }
@@ -38,8 +38,6 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-bottom: 5px;
-    margin-left: 10px;
 }
 
 nav ul {
