@@ -69,6 +69,16 @@ nav .hamburger {
     display: none;
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Adjust as needed */
+    }
+
+    nav {
+        margin-top: 0;
+    }
+}
+
 
 body {
     font-family: "Lato", sans-serif;
