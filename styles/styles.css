@@ -1,4 +1,5 @@
 /* Base CSS Styles */
+
 :root {
     --dark-green: #8EAFBD;
     --dark-blue: #242A3A;
@@ -7,23 +8,14 @@
     --light-gray: #BFC1C0;
 }
 
-body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    background-color: #8EAFBD;
-    color: #242A3A;
-}
-
 header {
     background-color: #242A3A;
-    color: white;
     padding: 20px;
     text-align: center;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
@@ -32,18 +24,24 @@ header img {
     border-radius: 8px;
 }
 
+header span {
+    font-family: "Abril Fatface", serif;
+    font-size: 3rem;
+    color: white; 
+    margin-left: 10px;
+}
+
 h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
     color: white;
     text-align: center;
-    margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 5px;
+    margin-left: 10px;
 }
 
-/* Navigation Styles */
 nav ul {
     font-family: "Lato", sans-serif;
     display: flex;
@@ -73,7 +71,28 @@ nav .hamburger {
     display: none;
 }
 
-/* Main content section */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #8EAFBD;
+    color: #242A3A;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 2rem;
+    color: #202C2B;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -138,23 +157,10 @@ main img {
     border-left: 5px solid #155724;
 }
 
-
 section {
     margin-bottom: 40px;
 }
 
-h2 {
-    font-family: "Abril Fatface", serif;
-    font-size: 2rem;
-    color: #202C2B;
-    text-align: center;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-bottom: 5px;
-}
-
-/* Long section layout */
 .long-section .content-layout {
     display: flex;
     align-items: center;
@@ -173,7 +179,6 @@ h2 {
     margin-left: 20px;
 }
 
-/* Cards for course content */
 .card {
     background: white;
     padding: 15px;
@@ -190,7 +195,7 @@ h2 {
     float: left;
 }
 
-/* Footer Styles */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -203,7 +208,6 @@ footer p {
     margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;

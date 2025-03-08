@@ -1,3 +1,5 @@
+// course.js
+
 const courses = [
     {
         subject: 'CSE',
@@ -109,10 +111,8 @@ function displayCourses(filter = "all") {
     totalCreditsEl.textContent = totalCredits;
 }
 
-// Filter event listeners
 document.getElementById("all-courses").addEventListener("click", () => displayCourses("all"));
 document.getElementById("wdd-courses").addEventListener("click", () => displayCourses("WDD"));
 document.getElementById("cse-courses").addEventListener("click", () => displayCourses("CSE"));
 
-// Load all courses on page load
 displayCourses();
