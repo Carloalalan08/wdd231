@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Course Home Page">
+    <meta name="author" content="Your Name">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <img src="images/your-photo.jpg" alt="Your Name">
+        <span>Your Name</span>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </nav>
     <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section.</p>
+        <h1>Home</h1>
+        <section id="section1">
+            <h2>Section 1 Title</h2>
+            <p>Content for Section 1...</p>
         </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>This is the about section.</p>
+        <section id="section2">
+            <h2>Section 2 Title</h2>
+            <p>Content for Section 2...</p>
         </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>This is the services section.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>This is the contact section.</p>
+        <section id="section3">
+            <h2>Section 3 Title</h2>
+            <p>Content for Section 3...</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 My Website</p>
+        <p>&copy; <span id="currentyear"></span> Your Name, Your State or Country</p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="js/date.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script src="js/course.js" defer></script>
 </body>
 </html>
