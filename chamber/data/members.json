@@ -1,26 +1,50 @@
 [
     {
-        "name": "ABC Electronics",
-        "address": "123 Tech Street, Cityville",
-        "phone": "123-456-7890",
-        "website": "https://abc-electronics.com",
-        "image": "abc-electronics.jpg",
+        "name": "Southeastasia Retail Inc.",
+        "address": "Southeastasia Retail Inc. - Paco Manila",
+        "phone": "+632 8911 SEEK(7335)",
+        "website": "http://landers.ph",
+        "image": "images/landers.jpg",
+        "level": 1
+    },
+    {
+        "name": "Cebu Pacific Air",
+        "address": "Cebu Pacific Building Domestic Road, Pasay, Metro Manila, Philippines",
+        "phone": "+612 9119 2956",
+        "website": "https://www.cebupacificair.com/en-PH",
+        "image": "images/cebupacific.jpg",
         "level": 3
     },
     {
-        "name": "XYZ Café",
-        "address": "456 Market Ave, Cityville",
-        "phone": "987-654-3210",
-        "website": "https://xyz-cafe.com",
-        "image": "xyz-cafe.jpg",
-        "level": 2
+        "name": "Flash Express",
+        "address": "Robinsons Cyber Sigma Building, Lawton Avenue, McKinley West BGC, Taguig City",
+        "phone": "(02) 8539-4002",
+        "website": "https://www.flashexpress.ph",
+        "image": "images/flashexpress.jpg",
+        "level": 1
     },
     {
-        "name": "Quick Auto Repair",
-        "address": "789 Main Street, Cityville",
-        "phone": "555-123-4567",
-        "website": "https://quickautorepair.com",
-        "image": "quick-auto.jpg",
+        "name": "Cardinal Health",
+        "address": "Ground Floor, W City Center, 7th Ave. cor 30th St. Taguig, NCR, Philippines",
+        "phone": "(02) 8809 5321",
+        "website": "https://www.cardinalhealth.com",
+        "image": "images/cardinalhealth.png",
         "level": 1
+    },
+    {
+        "name": "Toyota Motor Philippines",
+        "address": "Santa Rosa-Tagaytay Rd, Santa Rosa City, Philippines",
+        "phone": "(02) 8819 2912",
+        "website": "https://toyota.com.ph",
+        "image": "images/toyota.jpg",
+        "level": 3
+    },
+    {
+        "name": "Toyota Motor Philippines",
+        "address": "Santa Rosa-Tagaytay Rd, Santa Rosa City, Philippines",
+        "phone": "(02) 8819 2912",
+        "website": "https://toyota.com.ph",
+        "image": "images/toyota.jpg",
+        "level": 3
     }
 ]
