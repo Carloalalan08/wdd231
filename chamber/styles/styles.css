@@ -88,6 +88,11 @@ nav ul li a.active {
     color: var(--primary-color);
 }
 
+nav ul.show {
+    display: flex;
+    flex-direction: column;
+}
+
 main {
     margin: 20px;
 }
