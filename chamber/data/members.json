@@ -1,0 +1,26 @@
+[
+    {
+        "name": "ABC Electronics",
+        "address": "123 Tech Street, Cityville",
+        "phone": "123-456-7890",
+        "website": "https://abc-electronics.com",
+        "image": "abc-electronics.jpg",
+        "membership": 3
+    },
+    {
+        "name": "XYZ Café",
+        "address": "456 Market Ave, Cityville",
+        "phone": "987-654-3210",
+        "website": "https://xyz-cafe.com",
+        "image": "xyz-cafe.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Quick Auto Repair",
+        "address": "789 Main Street, Cityville",
+        "phone": "555-123-4567",
+        "website": "https://quickautorepair.com",
+        "image": "quick-auto.jpg",
+        "membership": 1
+    }
+]

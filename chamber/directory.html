@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Directory Page">
+    <meta name="author" content="Mon Carlo Alalan">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/chamber-thumbnail.jpg">
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html">
+    
+    <title>Chamber Directory</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <button class="hamburger">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Business Directory</h2>
+        <div class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        <section id="directory"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Mon Carlo Alalan - WDD 231</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
