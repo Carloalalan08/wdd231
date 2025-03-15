@@ -5,14 +5,14 @@
         "phone": "+632 8911 SEEK(7335)",
         "website": "http://landers.ph",
         "image": "images/landers.jpg",
-        "level": 1
+        "level": 2
     },
     {
         "name": "Cebu Pacific Air",
         "address": "Cebu Pacific Building Domestic Road, Pasay, Metro Manila, Philippines",
         "phone": "+612 9119 2956",
         "website": "https://www.cebupacificair.com/en-PH",
-        "image": "images/cebupacific.jpg",
+        "image": "images/cebu_pacific.jpg",
         "level": 3
     },
     {
@@ -27,8 +27,8 @@
         "name": "Cardinal Health",
         "address": "Ground Floor, W City Center, 7th Ave. cor 30th St. Taguig, NCR, Philippines",
         "phone": "(02) 8809 5321",
-        "website": "https://www.cardinalhealth.com",
-        "image": "images/cardinalhealth.png",
+        "website": "https://www.cardinahealth.com",
+        "image": "images/cardinal_health.png",
         "level": 1
     },
     {
@@ -40,11 +40,18 @@
         "level": 3
     },
     {
-        "name": "Toyota Motor Philippines",
-        "address": "Santa Rosa-Tagaytay Rd, Santa Rosa City, Philippines",
-        "phone": "(02) 8819 2912",
-        "website": "https://toyota.com.ph",
-        "image": "images/toyota.jpg",
+        "name": "Wells Fargo",
+        "address": "Wells Fargo Center, 1180 Wells Fargo Drive, McKinley Hill, Upper Mckinley Road, Taguig City, Metro Manila, Philippines",
+        "phone": "001-800-2255935",
+        "website": "https://www.wellsfargo.com",
+        "image": "images/wells_fargo.jpg",
+        "level": 3
+    }, {
+        "name": "Shell",
+        "address": "Solaris One Building, 130 Dela Rosa Street, Makati City, Metro Manila, Philippines",
+        "phone": "28788888",
+        "website": "https://www.shell.com.ph",
+        "image": "images/shell.jpg",
         "level": 3
     }
 ]
