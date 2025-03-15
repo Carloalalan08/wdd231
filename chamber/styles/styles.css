@@ -4,6 +4,7 @@
     --secondary-color: #8EAFBD;
     --light-color: #BFC1C0;
     --text-color: #ffffff;
+    --border-color: #444; /* Darker border for table */
 }
 
 body {
@@ -14,19 +15,37 @@ body {
     color: var(--primary-color);
 }
 
-/* Header */
-header {
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: var(--primary-color);
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    background: var(--primary-color);
+    padding: 10px;
+    margin: 0;
 }
 
 nav ul li {
@@ -37,10 +56,15 @@ nav ul li a {
     color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
-nav .hamburger {
-    display: none;
+nav ul li a:hover,
+nav ul li a.active {
+    background: var(--light-color);
+    color: var(--primary-color);
 }
 
 /* Directory Section */
@@ -55,38 +79,96 @@ nav .hamburger {
     background: var(--primary-color);
     color: var(--text-color);
     cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
 }
 
-#directory {
+.view-toggle button:hover {
+    background: var(--light-color);
+    color: var(--primary-color);
+}
+
+main {
+    margin: 20px;
+}
+
+/* Grid View (Default) */
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
-.directory-card {
+/* Grid View - Business Card */
+.business-card {
     background: var(--light-color);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.directory-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* List View */
-.list-view .directory-card {
+/* List View - Structured Table Format */
+.list {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    padding: 10px;
+    width: 100%;
 }
 
-.list-view .directory-card img {
-    width: 100px;
-    margin-right: 15px;
+/* Table Styling */
+.list table {
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+.list th {
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Data */
+.list td {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Links in List View */
+.list td a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list td a:hover {
+    text-decoration: underline;
+}
+
+/* Hide Images in List View */
+.list img {
+    display: none;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .list table {
+        font-size: 14px;
+    }
+    
+    .list th, .list td {
+        padding: 8px;
+    }
 }
 
 /* Footer */
@@ -95,4 +177,5 @@ footer {
     padding: 10px;
     background: var(--primary-color);
     color: var(--text-color);
+    margin: 20px 0;
 }
