@@ -105,7 +105,87 @@ main {
     padding: 20px;
 }
 
-/* Grid View - Business Card */
+/* 🌟 Events Section Styling */
+.events {
+    text-align: center;
+    background: var(--light-color);
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.events h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+/* 🔥 Event Card Grid */
+.event-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* 🎟️ Event Cards */
+.event-card {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 📸 Event Image */
+.event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 📋 Event Details */
+.event-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.event-details h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 1rem;
+    color: var(--border-color);
+    margin: 5px 0;
+}
+
+.event-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.event-btn:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
 .business-card {
     background: var(--light-color);
     padding: 15px;
@@ -123,7 +203,6 @@ main {
     padding: 5px; 
 }
 
-/* List View - Structured Table Format */
 .list {
     display: flex;
     flex-direction: column;
@@ -132,7 +211,6 @@ main {
     width: 100%;
 }
 
-/* Table Styling */
 .list table {
     width: 90%;
     max-width: 900px;
@@ -143,7 +221,6 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Header */
 .list th {
     background: var(--primary-color);
     color: var(--text-color);
@@ -152,13 +229,11 @@ main {
     text-align: left;
 }
 
-/* Table Data */
 .list td {
     padding: 10px;
     border-bottom: 1px solid var(--border-color);
 }
 
-/* Links in List View */
 .list td a {
     color: var(--primary-color);
     text-decoration: none;
@@ -169,12 +244,10 @@ main {
     text-decoration: underline;
 }
 
-/* Hide Images in List View */
 .list img {
     display: none;
 }
 
-/* Responsive Table */
 @media (max-width: 768px) {
     .list table {
         font-size: 14px;
@@ -185,7 +258,6 @@ main {
     }
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 10px;
@@ -194,7 +266,6 @@ footer {
     margin: 20px 0;
 }
 
-/* Weather Section */
 .weather {
     text-align: center;
     padding: 20px;
@@ -230,7 +301,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Business Spotlights */
 .spotlights {
     text-align: center;
     padding: 20px;
