@@ -193,3 +193,87 @@ footer {
     color: var(--text-color);
     margin: 20px 0;
 }
+
+/* Weather Section */
+.weather {
+    text-align: center;
+    padding: 20px;
+    background: var(--light-color);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather h2 {
+    color: var(--primary-color);
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.forecast-item {
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--text-color);
+    text-align: center;
+    width: 100px;
+}
+
+.forecast-item p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Business Spotlights */
+.spotlights {
+    text-align: center;
+    padding: 20px;
+}
+
+.spotlight-card {
+    background: var(--light-color);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+}
+
+.spotlight-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.spotlight-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.spotlight-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.spotlight-card a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    text-decoration: underline;
+}
+
