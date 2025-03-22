@@ -7,6 +7,10 @@
     --border-color: #444;
 }
 
+header {
+    width: 100%;
+}
+
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
@@ -149,26 +153,6 @@ main {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* 🌍 Responsive Styles */
-@media (max-width: 768px) {
-    .join-now {
-        padding: 30px 15px;
-    }
-
-    .join-content h2 {
-        font-size: 1.5rem;
-    }
-
-    .join-content p {
-        font-size: 1rem;
-    }
-
-    .join-btn {
-        font-size: 1rem;
-        padding: 10px 16px;
-    }
-}
-
 .events {
     text-align: center;
     background: var(--light-color);
@@ -258,8 +242,8 @@ main {
     height: 120px;
     object-fit: contain;
     border-radius: 5px;
-    background-color: #fff; 
-    padding: 5px; 
+    background-color: #fff;
+    padding: 5px;
 }
 
 .list {
@@ -311,9 +295,41 @@ main {
     .list table {
         font-size: 14px;
     }
-    
-    .list th, .list td {
+
+    .list th,
+    .list td {
         padding: 8px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .join-now {
+        padding: 30px 15px;
+    }
+
+    .join-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .join-content p {
+        font-size: 1rem;
+    }
+
+    .join-btn {
+        font-size: 1rem;
+        padding: 10px 16px;
     }
 }
 
@@ -406,3 +422,6 @@ footer {
     text-decoration: underline;
 }
 
+footer {
+    width: 100%;
+}
