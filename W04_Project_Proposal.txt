@@ -1,0 +1,26 @@
+Project Proposal Submission (Week 4)
+
+Subject of the Website:
+Bigger Whale - A Printing Press Business
+
+Planned Content:
+The website will consist of the following pages:
+
+    Home: An introduction to Bigger Whale, its mission, and key services.
+
+    Services: A detailed breakdown of printing services offered, including business cards, flyers, tarpaulins, brochures, and more.
+
+    Portfolio: A showcase of past projects to highlight quality, creativity, and design capabilities.
+
+    Contact Us: A form for customers to inquire about services, request quotes, or visit the shop.
+
+Additional Features:
+
+    Customer testimonials to enhance credibility and trust.
+
+    A price estimate tool or an interactive quote calculator.
+
+    A blog or news section to share updates, promotions, and industry insights.
+
+Reason for Choosing This Subject:
+Bigger Whale currently lacks an online presence, which limits its marketing reach. Developing a website will help attract more customers, provide an easy way to inquire about services, and effectively showcase the business’s work to potential clients. Since I work there, I have direct access to accurate content and branding materials, ensuring the site aligns with the company's vision.

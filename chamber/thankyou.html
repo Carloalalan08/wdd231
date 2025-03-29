@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="images/logo.png" alt="Chamber Logo" class="logo">
+                <span class="nav-title">Chamber of Commerce</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Thank You for Joining!</h1>
+        <p>Your application has been received. Below is the information you submitted:</p>
+        
+        <div class="thank-you-box">
+            <p><strong>First Name:</strong> <span id="firstName"></span></p>
+            <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Mobile Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Business/Organization:</strong> <span id="organization"></span></p>
+            <p><strong>Submitted on:</strong> <span id="timestamp"></span></p>
+        </div>
+
+        <a href="index.html" class="button">Return to Home</a>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Mon Carlo Alalan - WDD 231</p>
+        <p>Contact us: Malalan@byupathway.edu | Phone: 09624465620</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
