@@ -528,6 +528,16 @@ input[type="submit"]:hover {
     padding: 20px;
 }
 
+#visitor-message {
+    background-color: #f0f8ff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid #007acc;
+    font-style: italic;
+    font-size: 1.1rem;
+    max-width: 500px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
