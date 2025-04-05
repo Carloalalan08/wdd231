@@ -360,6 +360,26 @@ input[type="submit"]:hover {
     text-decoration: underline;
 }
 
+.card figure {
+    margin: 0;
+    padding: 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card button {
+    margin-top: 10px;
+}
+
+/* Hover effect on images */
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* Modals */
 .modal {
     display: none;
@@ -501,6 +521,13 @@ input[type="submit"]:hover {
     text-decoration: underline;
 }
 
+#items-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns by default */
+    gap: 20px;
+    padding: 20px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -549,5 +576,17 @@ footer {
     .join-btn {
         font-size: 1rem;
         padding: 10px 16px;
+    }
+}
+
+@media (min-width: 641px) {
+    #items-grid {
+        grid-template-columns: repeat(4, 1fr); /* Four columns on medium screens */
+    }
+}
+
+@media (min-width: 1025px) {
+    #items-grid {
+        grid-template-columns: repeat(4, 1fr); /* Four columns on large screens */
     }
 }

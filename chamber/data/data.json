@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Central Park",
+        "address": "123 Park St, Cityville",
+        "description": "A large public park with walking trails, gardens, and recreational facilities.",
+        "image": "central_park.jpg"
+    },
+    {
+        "name": "City Museum",
+        "address": "456 Museum Ave, Cityville",
+        "description": "A museum showcasing the rich history and culture of the city.",
+        "image": "city_museum.jpg"
+    },
+    {
+        "name": "Riverfront",
+        "address": "789 River Rd, Cityville",
+        "description": "A scenic spot along the river with dining and outdoor activities.",
+        "image": "riverfront.jpg"
+    },
+    {
+        "name": "Grand Mall",
+        "address": "101 Mall Blvd, Cityville",
+        "description": "A shopping center with retail stores, restaurants, and entertainment options.",
+        "image": "grand_mall.jpeg"
+    },
+    {
+        "name": "Skyview Tower",
+        "address": "202 Tower Rd, Cityville",
+        "description": "A skyscraper offering panoramic views of the city from its observation deck.",
+        "image": "skyview_tower.jpg"
+    },
+    {
+        "name": "Botanical Gardens",
+        "address": "303 Garden St, Cityville",
+        "description": "A beautiful garden filled with rare plants, flowers, and walking paths.",
+        "image": "botanical_gardens.webp"
+    },
+    {
+        "name": "Sports Complex",
+        "address": "404 Sports Blvd, Cityville",
+        "description": "A state-of-the-art facility for various sports, including soccer, tennis, and swimming.",
+        "image": "sports_complex.jpg"
+    },
+    {
+        "name": "Historic District",
+        "address": "505 Old St, Cityville",
+        "description": "A preserved area with colonial-era buildings and museums.",
+        "image": "historic_district.jpg"
+    }
+]
