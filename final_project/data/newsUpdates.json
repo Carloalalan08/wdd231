@@ -1,0 +1,30 @@
+[
+    {
+        "type": "announcement",
+        "title": "Important Announcement: Temporary Closure",
+        "description": "We will be closed for maintenance from April 15th to April 17th. We apologize for the inconvenience and thank you for your understanding.",
+        "date": "April 15, 2025",
+        "link": "#closureDetails"
+    },
+    {
+        "type": "promo",
+        "title": "Exclusive Promo: 20% Off All Services",
+        "description": "Get 20% off all printing and signage services until the end of this month. Don't miss out!",
+        "date": "April 5, 2025",
+        "link": "#promoDetails"
+    },
+    {
+        "type": "new_service",
+        "title": "New Service: Customized T-shirts!",
+        "description": "We now offer customized t-shirt printing! Create your own design and get high-quality prints today.",
+        "date": "April 1, 2025",
+        "link": "#tshirtService"
+    },
+    {
+        "type": "announcement",
+        "title": "Holiday Hours Announcement",
+        "description": "In observance of the upcoming holiday, we will be closing early on April 9th at 2 PM. Please plan accordingly.",
+        "date": "April 9, 2025",
+        "link": "#holidayHours"
+    }
+]

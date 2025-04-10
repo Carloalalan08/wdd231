@@ -1,0 +1,129 @@
+{
+    "tarpaulin": {
+      "title": "Tarpaulin",
+      "price": "₱10 per sq.ft",
+      "basePrice": 10,
+      "desc": "Durable, full-color banners for indoor and outdoor use."
+    },
+    "panaflex": {
+      "title": "Panaflex",
+      "price": "₱12 per sq.ft",
+      "basePrice": 12,
+      "desc": "Flexible signage material ideal for lighted frames."
+    },
+    "sticker": {
+      "title": "Sticker",
+      "price": "₱5 per piece",
+      "basePrice": 5,
+      "desc": "Custom cut vinyl stickers for various surfaces."
+    },
+    "signage": {
+      "title": "Signage",
+      "price": "Starting at ₱500",
+      "basePrice": 500,
+      "desc": "Eye-catching and weather-resistant business signs."
+    },
+    "tshirt": {
+      "title": "T-shirt",
+      "price": "₱180 and up",
+      "basePrice": 180,
+      "desc": "High-quality shirt printing with your custom design."
+    },
+    "autocad": {
+      "title": "Autocad Printing",
+      "price": "₱25 per sq.ft",
+      "basePrice": 25,
+      "desc": "Accurate prints for architectural and engineering plans."
+    },
+    "embroidery": {
+      "title": "Embroidery",
+      "price": "Starts at ₱300",
+      "basePrice": 300,
+      "desc": "Digitized embroidery on uniforms and merchandise."
+    },
+    "acrylic": {
+      "title": "Acrylic",
+      "price": "Starts at ₱450",
+      "basePrice": 450,
+      "desc": "Custom acrylic cutouts and signboards."
+    },
+    "sintra": {
+      "title": "Sintra",
+      "price": "₱150 per board",
+      "basePrice": 150,
+      "desc": "Rigid and lightweight boards for indoor displays."
+    },
+    "plaque": {
+      "title": "Plaque",
+      "price": "₱500 and up",
+      "basePrice": 500,
+
+      "desc": "Elegant commemorative plaques with engraving."
+    },
+    "glass": {
+      "title": "Glass Frame",
+      "price": "₱300 and up",
+      "basePrice": 300,
+      "desc": "Stylish photo and certificate glass frames."
+    },
+    "tiles": {
+      "title": "Tiles Frame",
+      "price": "₱350 and up",
+      "basePrice": 350,
+      "desc": "Printed ceramic tiles in decorative frames."
+    },
+    "pvc": {
+      "title": "PVC ID",
+      "price": "₱80 per ID",
+      "basePrice": 80,
+      "desc": "Professional-quality PVC identification cards."
+    },
+    "menu": {
+      "title": "Menu Board",
+      "price": "₱700 and up",
+      "basePrice": 700,
+      "desc": "Custom menu boards for restaurants and cafes."
+    },
+    "photo": {
+      "title": "Photo Printing",
+      "price": "₱10 - ₱50",
+      "desc": "High-resolution photo prints on glossy paper."
+    },
+    "carsticker": {
+      "title": "Car Sticker",
+      "price": "₱200 and up",
+      "basePrice": 200,
+      "desc": "Weatherproof decals for car windows and bodies."
+    },
+    "acrylicsign": {
+      "title": "Acrylic Signage",
+      "price": "₱600 and up",
+      "basePrice": 600,
+      "desc": "Custom signage on high-grade acrylic sheets."
+    },
+    "sintraboard": {
+      "title": "Sintra Board",
+      "price": "₱180 per board",
+      "basePrice": 180,
+      "desc": "Lightweight board for presentations and displays."
+    },
+    "standee": {
+      "title": "Standee",
+      "price": "₱1000 and up",
+      "basePrice": 1000,
+      "desc": "Full-size printed standees for events and ads."
+    },
+    "supplies": {
+      "title": "Printing Supplies",
+      "price": "Varies",
+      "basePrice": 100,
+      "desc": "Inks, paper, and tools for personal printing needs."
+    },
+    "lamination": {
+      "title": "Lamination",
+      "price": "₱10 per sheet",
+      "basePrice": 10,
+      "desc": "Protect and enhance your prints with lamination."
+    }
+  }
+  

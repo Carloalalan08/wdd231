@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bigger Whale Enterprises | Home</title>
+  <meta name="description" content="Bigger Whale is your creative and reliable printing press.">
+  <meta name="author" content="Mon Carlo Alalan" >
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/Bigger_Whale_Logo.png" alt="Logo" class="logo">
+    </div>
+      <h1>Bigger Whale Enterprises</h1>
+      <p>Your vision, perfectly printed.</p>
+  </header>
+
+  <nav>
+    <div class="hamburger">&#9776;</div>
+    <ul>
+      <li><a href="index.html"  class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="about-section">
+      <h2>About Us</h2>
+      <p>
+        Bigger Whale is a premier printing press committed to quality, affordability, and speed.
+        We serve businesses and individuals with custom prints tailored to your needs.
+      </p>
+    
+      <div class="about-team">
+        <div class="about-card" id="ownerCard">
+          <img src="images/Owner.jpg" alt="Owner of Bigger Whale" class="about-photo">
+          <h3>Charmaine and Ferdinand Delos Reyes</h3>
+          <p>Founder & Creative Director</p>
+        </div>
+    
+        <div class="about-card" id="staffCard">
+          <img src="images/Bigger_Whale_Staff.jpg" alt="Bigger Whale Staff" class="about-photo">
+          <h3>Our Team</h3>
+          <p>Dedicated staff bringing your ideas to life.</p>
+        </div>
+      </div>
+    </section>    
+
+    <section>
+      <h2>Testimonials</h2>
+      <blockquote>"Excellent service and stunning prints!" – Ana D.</blockquote>
+      <blockquote>"They helped our business stand out. Highly recommend!" – Jomar S.</blockquote>
+    </section>
+
+    <!-- Spotlight Section -->
+    <section id="spotlight">
+        <h2>Featured Products</h2>
+        <div id="spotlight-container"></div>
+      </section>
+
+      <section>
+        <h2>Quote Calculator</h2>
+        <form id="quoteForm">
+          <label for="service">Select a service:</label>
+          <select id="service" name="service" required>
+            <option value="">-- Select a service --</option>
+          </select>
+          <br>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" required>
+          <br>
+          <button type="submit">Get Estimate</button>
+        </form>
+        <p id="quoteResult"></p>
+      </section>
+      
+
+      <section id="news-updates">
+        <h2>News & Updates</h2>
+        <p>Stay tuned for the latest updates, promos, and announcements!</p>
+        <div id="discover-container"></div> <!-- This is where the news items will be dynamically inserted -->
+    </section>    
+  </main>
+
+  <!-- Owner Modal -->
+  <div class="modal" id="ownerModal">
+    <div class="modal-content">
+      <span class="close" id="closeOwner">&times;</span>
+      <img src="images/owner.jpg" alt="Owner" class="modal-image">
+      <h3>Charmaine and Ferdinand Delos Reyes</h3>
+      <p>Maine and Ferdie are the visionaries behind Bigger Whale. With years of creative expertise together, they lead the team to excellence in every print.</p>
+    </div>
+  </div>
+
+  <!-- Staff Modal -->
+  <div class="modal" id="staffModal">
+    <div class="modal-content">
+      <span class="close" id="closeStaff">&times;</span>
+      <img src="images/Bigger_Whale_Staff.jpg" alt="Staff Group" class="modal-image">
+      <h3>Our Team</h3>
+      <p>From design to production, our team works with passion and precision to deliver beyond expectations.</p>
+    </div>
+  </div>
+
+    <!-- Product Modals (Hidden by default) -->
+    <div id="modal-container"></div>
+
+    <!-- Modal for displaying more details -->
+  <div id="learnMoreModal" class="modal">
+    <div class="modal-content">
+        <span id="modalClose" class="close">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <span id="modalDate"></span>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="currentMonth"></span> <span id="currentYear"></span>  <strong>Bigger Whale Enterprises</strong>   by Mon Carlo Alalan</p>
+    <a href="references.html">References</a>
+  </footer>  
+
+  <!-- Include JavaScript Files -->
+  <script src="scripts/date.js"></script>
+  <script src="scripts/discover.js"></script>
+  <script src="scripts/form-confirmation.js"></script>
+  <script src="scripts/form.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/navigation.js"></script>
+  <script src="scripts/spotlight.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

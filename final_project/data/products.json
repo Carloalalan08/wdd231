@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tarpaulin",
+    "name": "Tarpaulin",
+    "description": "Durable, full-color banners for indoor and outdoor use.",
+    "price": 10,
+    "image": "tarpaulin.jpeg",
+    "details": "Ideal for events, promos, and signages. Printed in vivid color and long-lasting material."
+  },
+  {
+    "id": "panaflex",
+    "name": "Panaflex",
+    "description": "Flexible signage material ideal for lighted frames.",
+    "price": 12,
+    "image": "panaflex.jpg",
+    "details": "Get your brand noticed with brilliant panaflex signs perfect for day and night visibility."
+  },
+  {
+    "id": "sticker",
+    "name": "Sticker",
+    "description": "Custom cut vinyl stickers for various surfaces.",
+    "price": 5,
+    "image": "sticker.jpg",
+    "details": "Design and print custom stickers for packaging, branding, or fun!"
+  },
+  {
+    "id": "signage",
+    "name": "Signage",
+    "description": "Eye-catching and weather-resistant business signs.",
+    "price": 500,
+    "image": "signage.jpg",
+    "details": "Boost your business presence with attractive, weatherproof signage solutions."
+  },
+  {
+    "id": "tshirt",
+    "name": "T-shirt Printing",
+    "description": "High-quality shirt printing with your custom design.",
+    "price": 180,
+    "image": "Sublimation_Shirt.jpg",
+    "details": "Design your own shirts for events, brands, or gifts using vibrant, durable prints."
+  },
+  {
+    "id": "autocad",
+    "name": "Autocad Printing",
+    "description": "Accurate prints for architectural and engineering plans.",
+    "price": 25,
+    "image": "autocad.jpg",
+    "details": "Clear, precise autocad prints ideal for building and engineering documents."
+  },
+  {
+    "id": "embroidery",
+    "name": "Embroidery",
+    "description": "Digitized embroidery on uniforms and merchandise.",
+    "price": 300,
+    "image": "embroidery.jpg",
+    "details": "Get uniforms, polos, and more embroidered with your custom logo or design."
+  },
+  {
+    "id": "acrylic",
+    "name": "Acrylic",
+    "description": "Custom acrylic cutouts and signboards.",
+    "price": 450,
+    "image": "acrylic.jpg",
+    "details": "Sleek and stylish signage or decorative elements made with precision-cut acrylic."
+  },
+  {
+    "id": "plaque",
+    "name": "Plaque",
+    "description": "Elegant commemorative plaques with engraving.",
+    "price": 500,
+    "image": "Plaque_7.jpg",
+    "details": "Mark milestones or achievements with custom-designed plaques suited for any occasion."
+  },
+  {
+    "id": "glass-frame",
+    "name": "Glass Frame",
+    "description": "Stylish photo and certificate glass frames.",
+    "price": 300,
+    "image": "glass-frame.jpg",
+    "details": "Frame your photos or documents in elegant, modern glass frames."
+  },
+  {
+    "id": "pvc-id",
+    "name": "PVC ID",
+    "description": "Professional-quality PVC identification cards.",
+    "price": 80,
+    "image": "pvc-id.jpg",
+    "details": "Create secure and sleek IDs for your team, school, or organization."
+  },
+  {
+    "id": "menu-board",
+    "name": "Menu Board",
+    "description": "Custom menu boards for restaurants and cafes.",
+    "price": 700,
+    "image": "menu-board.jpg",
+    "details": "Present your menu in style with durable and visually appealing boards."
+  },
+  {
+    "id": "photo-printing",
+    "name": "Photo Printing",
+    "description": "High-resolution photo prints on glossy paper.",
+    "price": 10,
+    "image": "photo-printing.png",
+    "details": "Turn your moments into vibrant photo keepsakes."
+  },
+  {
+    "id": "car-sticker",
+    "name": "Car Sticker",
+    "description": "Weatherproof decals for car windows and bodies.",
+    "price": 200,
+    "image": "car-sticker.jpg",
+    "details": "Boost your brand or personalize your ride with tough, long-lasting car stickers."
+  },
+  {
+    "id": "acrylic-signage",
+    "name": "Acrylic Signage",
+    "description": "Custom signage on high-grade acrylic sheets.",
+    "price": 600,
+    "image": "acrylic-signage.jpg",
+    "details": "Elegant, durable signs for business or events made with clear or colored acrylic."
+  },
+  {
+    "id": "sintra-board",
+    "name": "Sintra Board",
+    "description": "Lightweight board for presentations and displays.",
+    "price": 180,
+    "image": "sintra-board.jpg",
+    "details": "Durable foam board alternative for vibrant visuals and signage."
+  },
+  {
+    "id": "standee",
+    "name": "Standee",
+    "description": "Full-size printed standees for events and ads.",
+    "price": 1000,
+    "image": "standee.jpg",
+    "details": "Create life-sized promotional standees to attract attention at your next event."
+  },
+  {
+    "id": "printing-supplies",
+    "name": "Printing Supplies",
+    "description": "Inks, paper, and tools for personal printing needs.",
+    "price": 100,
+    "image": "printing-supplies.jpg",
+    "details": "Stock up on quality printing supplies for your office or shop."
+  },
+  {
+    "id": "lamination",
+    "name": "Lamination",
+    "description": "Protect and enhance your prints with lamination.",
+    "price": 10,
+    "image": "lamination.jpg",
+    "details": "Glossy or matte finish lamination to protect important documents and prints."
+  },
+  {
+    "id": "button-pin",
+    "name": "Button Pin",
+    "description": "Customized button pins for events, giveaways, or promotions.",
+    "price": 15,
+    "image": "Button_Pin.jpg",
+    "details": "Design your own button pins for branding, campaigns, or personal expression—durable and stylish!"
+  },
+  {
+    "id": "personalized-invitations",
+    "name": "Personalized Invitations",
+    "description": "Custom invitation cards for weddings, birthdays, and special events.",
+    "price": 25,
+    "image": "personalized_invitations.jpg",
+    "details": "Make your event unforgettable with beautifully designed, personalized invitations tailored to your theme and style."
+  }  
+]

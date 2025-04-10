@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Bigger Whale Enterprises</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/Bigger_Whale_Logo.png" alt="Logo" class="logo">
+    </div>
+      <h1>Bigger Whale Enterprises</h1>
+      <p>Your vision, perfectly printed.</p>
+  </header>
+
+  <nav>
+    <div class="hamburger">&#9776;</div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>What We Offer</h2>
+
+      <h3>Main Services</h3>
+      <ul class="service-list">
+        <li onclick="openServiceModal('tarpaulin')">Tarpaulin</li>
+        <li onclick="openServiceModal('panaflex')">Panaflex</li>
+        <li onclick="openServiceModal('sticker')">Sticker</li>
+        <li onclick="openServiceModal('signage')">Signage</li>
+        <li onclick="openServiceModal('tshirt')">T-shirt</li>
+      </ul>
+
+      <h3>Sub Services</h3>
+      <ul class="service-list">
+        <li onclick="openServiceModal('autocad')">Autocad Printing</li>
+        <li onclick="openServiceModal('embroidery')">Embroidery</li>
+        <li onclick="openServiceModal('acrylic')">Acrylic</li>
+        <li onclick="openServiceModal('sintra')">Sintra</li>
+      </ul>
+
+      <h3>Other Services Offered</h3>
+      <ul class="service-list">
+        <li onclick="openServiceModal('plaque')">Plaque</li>
+        <li onclick="openServiceModal('glass')">Glass Frame</li>
+        <li onclick="openServiceModal('tiles')">Tiles Frame</li>
+        <li onclick="openServiceModal('pvc')">PVC ID</li>
+        <li onclick="openServiceModal('menu')">Menu Board</li>
+        <li onclick="openServiceModal('photo')">Photo Printing</li>
+        <li onclick="openServiceModal('carsticker')">Car Sticker</li>
+        <li onclick="openServiceModal('acrylicsign')">Acrylic Signage</li>
+        <li onclick="openServiceModal('sintraboard')">Sintra Board</li>
+        <li onclick="openServiceModal('standee')">Standee</li>
+        <li onclick="openServiceModal('supplies')">Printing Supplies</li>
+        <li onclick="openServiceModal('lamination')">Lamination</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Modal Section -->
+  <div id="serviceModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeServiceModal()">×</span>
+      <h2 id="serviceTitle"></h2>
+      <p id="servicePrice"></p>
+      <p id="serviceDescription"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="currentMonth"></span> <span id="currentYear"></span>  <strong>Bigger Whale Enterprises</strong>   by Mon Carlo Alalan</p>
+    <a href="references.html">References</a>
+  </footer>   
+
+  <!-- Include JavaScript Files -->
+  <script src="scripts/services.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/discover.js"></script>
+  <script src="scripts/form-confirmation.js"></script>
+  <script src="scripts/form.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/navigation.js"></script>
+  <script src="scripts/spotlight.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

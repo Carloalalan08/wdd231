@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Bigger Whale Enterprises</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/Bigger_Whale_Logo.png" alt="Logo" class="logo">
+    </div>
+      <h1>Bigger Whale Enterprises</h1>
+      <p>Your vision, perfectly printed.</p>
+  </header>
+
+  <nav>
+    <div class="hamburger">&#9776;</div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>See Our Work</h2>
+    <div class="portfolio-grid">
+      <img src="images/Car_Sticker_1.jpg" alt="Sample work 1" loading="lazy">
+      <img src="images/Heat_Press_1.jpg" alt="Sample work 2" loading="lazy">
+      <img src="images/Embroidery_1.jpg" alt="Sample work 3" loading="lazy">
+      <img src="images/Tarpaulin_1.jpg" alt="Sample work 4" loading="lazy">
+      <img src="images/Editing_Design_1.jpg" alt="Sample work 5" loading="lazy">
+      <img src="images/Signage_Installment_4.jpg" alt="Sample work 6" loading="lazy">
+    </div>
+
+    <!-- Spotlight Section -->
+    <section id="spotlight">
+        <h2>Featured Products</h2>
+        <div id="spotlight-container"></div>
+      </section>
+    </main>
+  
+    <!-- Product Modals (Hidden by default) -->
+    <div id="modal-container"></div>
+
+
+    <footer>
+      <p>&copy; <span id="currentMonth"></span> <span id="currentYear"></span>  <strong>Bigger Whale Enterprises</strong>   by Mon Carlo Alalan</p>
+      <a href="references.html">References</a>
+    </footer>  
+
+  <!-- Include JavaScript Files -->
+  <script src="scripts/date.js"></script>
+  <script src="scripts/discover.js"></script>
+  <script src="scripts/form-confirmation.js"></script>
+  <script src="scripts/form.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/navigation.js"></script>
+  <script src="scripts/spotlight.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
